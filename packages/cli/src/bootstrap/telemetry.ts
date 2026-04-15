@@ -6,7 +6,7 @@ function isTelemetryDisabled(): boolean {
   return Boolean(process.env.CHECKPOINT_DISABLE)
 }
 
-const eventCapture = new PosthogEventCapture()
+const eventCapture = new PosthogEventCapture('phc_cmc85avbWyuJ2JyKdGPdv7dxXli8xLdWDBPbvIXWJfs')
 
 interface TelemetryContext {
   distinctId: string
